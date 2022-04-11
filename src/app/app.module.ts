@@ -7,6 +7,7 @@ import { DataBindingComponent } from './databinding/data-binding/data-binding.co
 import { PropertyBindingComponent } from './basics/property-binding/property-binding.component';
 import { EventBindingComponent } from './basics/event-binding/event-binding.component';
 import { TwowayBindingComponent } from './basics/twoway-binding/twoway-binding.component';
+import { DirectivesComponent } from './basics/directives/directives.component';
 
 
 @NgModule({
@@ -16,7 +17,9 @@ import { TwowayBindingComponent } from './basics/twoway-binding/twoway-binding.c
     DataBindingComponent,
     PropertyBindingComponent,
     EventBindingComponent,
-    TwowayBindingComponent
+    TwowayBindingComponent,
+    DirectivesComponent
+
   
   ],
   imports: [
