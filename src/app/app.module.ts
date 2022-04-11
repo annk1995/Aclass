@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { MyComponentComponent } from './mycomponent/my-component/my-component.component';
 import { DataBindingComponent } from './databinding/data-binding/data-binding.component';
 import { PropertyBindingComponent } from './basics/property-binding/property-binding.component';
+import { EventBindingComponent } from './basics/event-binding/event-binding.component';
 
 
 @NgModule({
@@ -12,7 +13,8 @@ import { PropertyBindingComponent } from './basics/property-binding/property-bin
     AppComponent,
     MyComponentComponent,
     DataBindingComponent,
-    PropertyBindingComponent
+    PropertyBindingComponent,
+    EventBindingComponent
   
   ],
   imports: [
